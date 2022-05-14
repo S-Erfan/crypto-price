@@ -1,0 +1,48 @@
+.containerCion {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ffc300;
+    padding: 10px 15px 10px 5px;
+    background-color: #000814;
+    color: #ffc300;
+}
+.numberCount {width: 5%;}
+.containerCion img {
+    width: 25px;
+    margin-right: 5px;
+}
+.namedCoin {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.symbolCoin {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.price, .priceChange, .marketCap {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toUp {
+    color: #05e205;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toDown {
+    color: #ff0000;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
